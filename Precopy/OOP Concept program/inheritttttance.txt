@@ -1,0 +1,16 @@
+class Parent{
+	int a=1;
+}	
+class Child extends Parent{
+	void child()
+	{
+		int b=a; //inheritance
+		System.out.println("B:" +b);  
+	}
+}
+class Main{
+	public static void main(String[] args){
+		Child t = new Child();
+		t.child();
+	}
+}
